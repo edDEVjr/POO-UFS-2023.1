@@ -1,0 +1,12 @@
+from randomTester import RandomTester
+teste = RandomTester()
+print("PrintOneRandom:")
+print(teste.printOneRandom())
+print("PrintMultiRandom:")
+teste.printMultiRandom(4)
+print("ThrowDice:")
+print(teste.throwDice())
+print("MaxRandom:")
+print(teste.maxRandom(8))
+print("MinMaxRandom:")
+print(teste.minMaxRandom(2,10))
